@@ -1,4 +1,6 @@
-from llm_client import llm
+import os,sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from common.llm_client import llm
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
 from langchain.agents import initialize_agent
