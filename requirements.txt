@@ -1,0 +1,6 @@
+dotenv
+langchain-community
+langgraph
+grandalf
+# pip install -U langchain-tavily
+# pip install -U langchain (for langsmith)
